@@ -32,7 +32,7 @@ const HomePage = () => {
                     Wykreuj swój wymarzony samochód
                 </Typography>
 
-                <Link to="/">
+                <Link to="/categories/$steepId" params={{ steepId: 'basic' }}>
                     <Button
                         variant="contained"
                         color="primary"
